@@ -10,5 +10,5 @@ Feature: As a user, I want to login and logout
     Then the user logout and redirect to login page
     Examples:
       | email           | password |
-      | store@admin.com | P@ssw0rd |
+      | store3@admin.com | P@ssw0rd |
 
