@@ -8,6 +8,8 @@ import org.testng.Assert;
 import static Utils.Base.driver;
 
 public class logoutSteps {
+    // the main function for this class to add our steps
+
     HomePage HP = new HomePage(driver);
     LoginPage login =new LoginPage(driver);
 

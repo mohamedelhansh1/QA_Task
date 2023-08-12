@@ -1,6 +1,6 @@
-Feature: As a user, I want to login
+Feature: As a user, I want to login and logout
 
-  Scenario Outline: Login
+  Scenario Outline: The user is able to complete End to End scenario
     Given the user redirect to login page
     When Submit email using "<email>" and password using "<password>"
     When Click on login button

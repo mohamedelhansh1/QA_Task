@@ -14,7 +14,7 @@ public class LoginSteps extends Base {
     LoginPage login = new LoginPage(driver);
     HomePage HP = new HomePage(driver);
 
-
+// the main function for this class to add our steps
     @Given("the user redirect to login page")
     public void theUserNavigatesToLoginScreen() {
         login.openLoginScreen();

@@ -16,6 +16,8 @@ import java.util.concurrent.TimeUnit;
 public class Base extends AbstractTestNGCucumberTests {
     public static WebDriver driver;
     public static WebDriverWait wait;
+     // here adding our setup function
+    // initialize the driver ,chrome
 
     @BeforeMethod
     public void setUp() {
@@ -25,8 +27,9 @@ public class Base extends AbstractTestNGCucumberTests {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
-//    @AfterMethod
-//    public void webDriverEnd() {
-//        driver.quit();
-//    }
+    // after running our cases close the browser
+    @AfterMethod
+    public void webDriverEnd() {
+        driver.quit();
+    }
 }

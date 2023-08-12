@@ -2,11 +2,12 @@ package Runner;
 
 import Utils.Base;
 import io.cucumber.testng.CucumberOptions;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
+//here the class to run all scenarios by adding:
+// 1- feature file
+// 2- steps directory
 @CucumberOptions(features = {
-      "src/main/resources/features/Login.feature",
+        "src/main/resources/features/Login.feature",
 }
         , glue = {"Steps"}
         , plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json"}
