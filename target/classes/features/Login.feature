@@ -1,3 +1,4 @@
+# E2E scenario to check the user is able to login and logout
 Feature: As a user, I want to login and logout
 
   Scenario Outline: The user is able to complete End to End scenario
@@ -9,5 +10,5 @@ Feature: As a user, I want to login and logout
     Then the user logout and redirect to login page
     Examples:
       | email           | password |
-      | store@admin.com | P@ssw0rd |
+      | store3@admin.com | P@ssw0rd |
 

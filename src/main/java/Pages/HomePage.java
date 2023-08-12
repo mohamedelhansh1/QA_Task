@@ -6,8 +6,9 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
     // declare welcome message, Profile icon , logout button
     By welcomeMessage = By.xpath("/html/body/app-root/admin-layout/section/div[3]/dashboard/p");
-    By profileIcon = By.xpath("/html/body/app-root/admin-layout/section/div[1]/header/section/navbar/div/div[2]/nav-actions/div/ul/li[3]/div/div[2]");
-    By logoutBtn = By.xpath("/html/body/app-root/admin-layout/section/div[1]/header/section/navbar/div/div[2]/nav-actions/div/ul/li[3]/div/div[2]/ul/li[3]");
+    By profileIcon = By.xpath("/html/body/app-root/admin-layout/section/div[1]/header/section/navbar/div/div[2]/nav-actions/div/ul/li[4]/div/div[2]/img");
+//    By logoutBtn = By.xpath("//*[@text()='Logout']");
+    By logoutBtn = By.xpath( "/html/body/app-root/admin-layout/section/div[1]/header/section/navbar/div/div[2]/nav-actions/div/ul/li[4]/div/div[2]/ul/li[3]");
 
     private WebDriver driver;
 

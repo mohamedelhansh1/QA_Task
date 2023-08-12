@@ -28,8 +28,8 @@ public class Base extends AbstractTestNGCucumberTests {
     }
 
     // after running our cases close the browser
-    @AfterMethod
-    public void webDriverEnd() {
-        driver.quit();
-    }
+//    @AfterMethod
+//    public void webDriverEnd() {
+//        driver.quit();
+//    }
 }

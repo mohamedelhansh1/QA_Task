@@ -7,12 +7,7 @@
     <list default="true" id="1a08dfba-347a-4df5-9442-ec6f791191f1" name="Changes" comment="comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/logoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Steps/logoutSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
@@ -245,7 +240,7 @@
       <workItem from="1691578110514" duration="10386000" />
       <workItem from="1691590938811" duration="5907000" />
       <workItem from="1691605664114" duration="31109000" />
-      <workItem from="1691845698161" duration="1463000" />
+      <workItem from="1691845698161" duration="2112000" />
     </task>
     <task id="LOCAL-00001" summary="comments">
       <created>1691847147480</created>
@@ -254,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691847147480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="comments">
+      <created>1691847226951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691847226951</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comments">
+      <created>1691847236409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691847236409</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
